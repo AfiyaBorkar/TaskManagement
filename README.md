@@ -84,3 +84,4 @@ task-management-application/
 
 ### Credits:
 - Developed by Afiya Borkar
+- Deployed on Vercel :[Link](https://task-management-ab.vercel.app/)
