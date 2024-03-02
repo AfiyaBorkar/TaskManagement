@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid; */
+  /* border-radius: 20px; */
+}
+
+.login-main-cont {
+  height: 73vh;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 25px;
+  padding-top: 50px;
+  gap: 45px;
+}
+
+.signup-main-cont {
+  /* height: 80vh; */
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 1px solid; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 50px;
+  gap: 45px;
+}
+
+.image-conatiner p {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.login-box p {
+  font-size: 25px;
+}
+
+.main-cont{
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .login-main-cont {
+    height: auto;
+    width: 50%;
+    padding: 30px;
+  }
+  .signup-main-cont {
+    height: auto;
+    width: 50%;
+    padding: 30px;
+  }
+
+  .login-box {
+    gap: 30px;
+    
+  }
+
+  .logintext {
+    font-size: 20px;
+  }
+
+  .main-cont{
+    /* align-items:baseline;
+    justify-content:flex-start; */
+    height: auto;
+  }
+}
+
+/* Adjustments for smaller devices */
+@media (max-width: 480px) {
+  .login-main-cont {
+    width: 70%;
+    padding: 30px;
+    height: auto;
+    /* height: 70%; */
+  }
+  .signup-main-cont {
+    width: 70%;
+    padding: 30px;
+    height: auto;
+    /* height: 68%; */
+  }
+  .login-box {
+    gap: 20px;
+  }
+
+  .logintext {
+    font-size: 18px;
+  }
+  .css-18lszlg {
+    display: flex;
+    flex-direction: column !important;
+    min-width: 50% !important;
+  }
+  .css-lpmok8 {
+    display: flex;
+    flex-direction: column !important;
+    gap: 10px;
+  }
+  .css-145bfs4 {
+    flex-direction: column !important;
+    -webkit-align-items: baseline !important;
+ 
+    align-items: baseline !important;
+  }
+
+  .css-145bfs4 button {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    left:80%;
+  }
+  .cont{
+    margin: 30px;
+  }
+   .main-cont{
+    /* align-items:baseline;
+    justify-content:flex-start; */
+    height: auto;
+  }
+
+  .todo{
+    width: 90vw;
+  }
+}
+/* Add media query for larger devices */
+@media (min-width: 1200px) {
+  .login-main-cont {
+    /* width: 25%; */
+    padding: 50px;
+    height: auto;
+  }
+  .signup-main-cont {
+    /* width: 25%; */
+    height: auto;
+    /* height: 85%; */
+    padding: 50px;
+
+    /* padding: 30px; */
+  }
+
+  .login-box {
+    gap: 15px;
+  }
+
+  .logintext {
+    font-size: small;
+  }
+}
